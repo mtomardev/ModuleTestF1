@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header_wrapper .navbar{
+    background-color: black;
+}
+
+.header_wrapper .navbar-brand{
+    
+    font-size: 80px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.header_wrapper .nav-item .nav-link{
+    font-size: 60px;
+    font-weight: 501;
+    color: white;
+    margin-right: 60px;
+    
+}
+
+
+.wrapper_banner p{
+    font-size: 120px;
+    font-weight: 800;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.arrow{
+    width: 20%;
+    align-items: center;
+    
+}
+
+.about_container{
+    display: flex;
+}
+
+.wrapper_about h1{
+    font-weight: 800;
+    font-size: 100px;
+    margin-top: 300px;
+}
+
+
+.wrapper_about p{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.wrapper_contact{
+    background-color: black;
+}
+
+.wrapper_contact h3{
+    
+    margin-left: 1800px;
+    font-size: 120px;
+    font-weight: 800;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.wrapper_contact button{
+    
+    font-size: 70px;
+    margin-left: 700px;
+    background-color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 120px;
+    
+}
+
+
+input[type="text"], [type="email"]{
+    width: 65%;
+    margin-left: 700px;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.card_style{
+    width: 400px;
+    height 400px;
+
+}
+
+
+.wrapper_services h1{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.wrapper_services h5{
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.wrapper_services p{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;   
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 350;
+    
+}
